@@ -1,0 +1,70 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #c9b9a5;
+    padding: 1rem 0;
+}
+.topico {
+    display: block;
+    margin-top: 1rem;
+}
+.topico .titulo{
+    font-size: 2rem;
+    font-weight: bold;  
+}
+.topico .descricao{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    display: block;
+    margin-top: 1rem;
+}
+.topico .descricao b {
+    font-weight: 600;
+}
+.topico .lista{
+    margin-top: 1rem;
+    display: block;
+}
+.topico .lista .item{
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 1rem;
+}
+.container{
+    width: 100% ;
+    max-width: 1140px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #883110;
+    color: #fff;
+    box-shadow: -1px 1px 23px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.container .imagem {
+    width: 30%;
+}
+.container .imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .texto{
+    width: calc(70% - 2rem);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.container .texto .informacoes-gerais{
+    margin: 2rem 0;
+}
+.container .texto .informacoes-gerais .nome {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.container .texto .informacoes-gerais .mais-informacoes {
+    font-size: 1.3rem;
+    display: block;
+    margin-top: 0.5rem;
+}
